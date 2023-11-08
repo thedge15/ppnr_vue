@@ -1,11 +1,11 @@
 <template>
   <header>
     <div class="mx-auto pt-5 pb-5 font-serif bg-sky-400">
-      <nav class="flex justify-center">
-        <RouterLink class="w-32 router-link-active" to="/">Главная</RouterLink>
-        <RouterLink class="w-32" to="/about">О нас</RouterLink>
-        <RouterLink class="w-32" to="/services">Услуги</RouterLink>
-        <RouterLink class="w-32" to="/contacts">Контакты</RouterLink>
+      <nav class="flex justify-center h-8">
+        <router-link class="w-32 hover:text-xl menuItem-active-link" to="/">Главная</router-link>
+        <router-link class="w-32 hover:text-xl menuItem-active-link" to="/about">О нас</router-link>
+        <router-link class="w-32 hover:text-xl menuItem-active-link" to="/services">Услуги</router-link>
+        <router-link class="w-32 hover:text-xl menuItem-active-link" to="/contacts">Контакты</router-link>
       </nav>
         <div class="text-center mt-5">
             <h2 class="text-2xl">Разработка программ ПНР, программ и методик приёмочных испытаний слаботочных сетей.</h2>
@@ -15,7 +15,10 @@
   <RouterView />
 </template>
 <style>
-    RouterLink.router-link-active {
-        color: aqua;
-    }
+
+.router-link-exact-active.menuItem-active-link{
+    border-bottom-color: #F19238;
+    font-size: x-large;
+    color:#F19238
+}
 </style>
