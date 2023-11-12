@@ -1,7 +1,7 @@
 <template>
-    <div class="text-center pt-10 font-serif bg-[url('/img/cables.jpg')] bg-cover h-5/6">
-        Главная
-        <div class="mx-auto pt-3 text-justify w-3/6 text-wrap space-y-5">
+    <div class="text-center pt-5 font-serif bg-[url('/img/cables.jpg')] bg-cover sm:max-h-fit md:h-5/6">
+        <p class="text-xl font-semibold">Главная</p>
+        <div class="mx-auto pt-3 text-justify w-3/6 text-wrap space-y-5 animate-fade">
             <p class="indent-8">
                 Пуско-наладочные работы по слаботочным системам следует осуществлять в следующем порядке:
                 - автономная пусконаладка каждой слаботочной системы;
@@ -33,9 +33,5 @@
                 - проверку взаимодействия с сопряженными инженерными системами.
             </p>
         </div>
-    </div>
-    <div class="bg-sky-400">
-        <p>l;lll;</p>
-        <p>l;lll;</p>
     </div>
 </template>

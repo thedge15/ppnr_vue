@@ -1,7 +1,7 @@
 <template>
-    <div class="text-center pt-10 font-serif bg-[url('/img/cables.jpg')] bg-cover h-5/6 transition-opacity">
-        <p>Услуги</p>
-        <div class="mx-auto pt-3 text-justify w-3/6 text-wrap  space-y-5">
+    <div class="text-center pt-5 font-serif bg-[url('/img/cables.jpg')] bg-cover sm:max-h-fit md:h-5/6">
+        <p class="text-xl font-semibold">Услуги</p>
+        <div class="mx-auto pt-3 text-justify w-3/6 text-wrap space-y-5 animate-fade">
             <p class="indent-8">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque consequatur, cupiditate, debitis
                 dicta
@@ -33,9 +33,5 @@
                 voluptatem. Eveniet!
             </p>
         </div>
-    </div>
-    <div class="bg-sky-400">
-        <p>l;lll;</p>
-        <p>l;lll;</p>
     </div>
 </template>

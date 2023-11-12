@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="mx-auto pt-5 pb-5 font-serif bg-sky-400">
+        <div class="mx-auto pt-5 pb-5 font-serif">
             <nav class="flex justify-center h-8">
                 <router-link class="w-32 hover:text-xl menuItem-active-link" to="/">Главная</router-link>
                 <router-link class="w-32 hover:text-xl menuItem-active-link" to="/about">О нас</router-link>
@@ -8,7 +8,7 @@
                 <router-link class="w-32 hover:text-xl menuItem-active-link" to="/contacts">Контакты</router-link>
             </nav>
             <div class="text-center mt-5">
-                <h2 class="text-xl">Разработка программ ПНР, программ и методик приёмочных испытаний слаботочных
+                <h2 class="text-2xl">Разработка программ ПНР, программ и методик приёмочных испытаний слаботочных
                     сетей.</h2>
             </div>
         </div>
